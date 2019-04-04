@@ -1,0 +1,2 @@
+model_checkpoint_path: "chars74k.ckpt"
+all_model_checkpoint_paths: "chars74k.ckpt"
