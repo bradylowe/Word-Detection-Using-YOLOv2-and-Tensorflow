@@ -23,7 +23,7 @@ selecting_box = False   # Only true if left mouse is held down
 ##########################################################
 ### Define the user interface environment
 ##############################################
-window = cv2.namedWindow("window")
+window = cv2.namedWindow("window", cv2.WINDOW_NORMAL)
 screen_size = (1850, 980)            # Full resolution of user's screen
 window_size = screen_size            # Desired resolution of display window
 cursor_pos = (0, 0)                  # Current location of cursor in orig_image
@@ -191,6 +191,7 @@ def add_box(start, end):
 
 cv2.namedWindow("window")
 cv2.setMouseCallback("window", select_box)
+cv2.setMouseCallback("window", pan_and_zoom)
 
 for orig_image_path in os.listdir(im_dir):
     
