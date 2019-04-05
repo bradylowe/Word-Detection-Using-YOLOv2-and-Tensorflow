@@ -5,6 +5,8 @@ This directory houses code, data, and neural network models
 for the automation of parsing input text files such as pdfs, 
 screenshots, or images of text.
 
+![](using_image_labeler.gif)
+
 ## List of files and directories
 
 **Files**
