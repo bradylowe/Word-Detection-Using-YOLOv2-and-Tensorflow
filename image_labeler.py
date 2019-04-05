@@ -5,6 +5,7 @@ import detection_utils as utils
 
 ###  DEFINE IMAGES DIRECTORY  ###
 im_dir = 'data/documents'
+im_dir = '.'
 
 #########################################################
 ### Define class boxes 
@@ -191,7 +192,6 @@ def add_box(start, end):
 
 cv2.namedWindow("window")
 cv2.setMouseCallback("window", select_box)
-cv2.setMouseCallback("window", pan_and_zoom)
 
 for orig_image_path in os.listdir(im_dir):
     
