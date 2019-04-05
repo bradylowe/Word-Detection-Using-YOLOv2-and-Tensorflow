@@ -168,10 +168,14 @@ def change_class(change = 0):
     print("Current class:  " + class_names[cur_class])
 
 def add_box(start, end):
+    """ Add class, top-left, and bottom-right points to list 
+        of boxes if the dimensions are large enough. """
     global boxes, cur_class
+    min_size = 5
     p1 = (min(start[0], end[0]), min(start[1], end[1]))
     p2 = (max(start[0], end[0]), max(start[1], end[1]))
-    boxes.append((cur_class, p1, p2))
+    if abs(start[0] - end[0]) > min_size and abs(start[1] - end[1]) > min_size:
+        boxes.append((cur_class, p1, p2))
 
 ################################################################################
 ################################################################################
