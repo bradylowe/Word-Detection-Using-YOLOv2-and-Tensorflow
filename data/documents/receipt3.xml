@@ -1,0 +1,23 @@
+<annotation>
+    <folder>data/documents</folder>
+    <filename>data/documents/receipt3.png</filename>
+    <size>
+        <width>2988</width>
+        <height>5312</height>
+        <depth>1</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>page</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>809</xmin>
+            <ymin>659</ymin>
+            <xmax>2219</xmax>
+            <ymax>5334</ymax>
+        </bndbox>
+    </object>
+</annotation>
