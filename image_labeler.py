@@ -5,7 +5,6 @@ import detection_utils as utils
 
 ###  DEFINE IMAGES DIRECTORY  ###
 im_dir = 'data/documents'
-im_dir = '.'
 
 #########################################################
 ### Define class boxes 
