@@ -2,9 +2,7 @@
 import os
 import cv2
 import detection_utils as utils
-
-###  DEFINE IMAGES DIRECTORY  ###
-im_dir = 'data/documents'
+import config
 
 #########################################################
 ### Define class boxes 
@@ -12,7 +10,6 @@ im_dir = 'data/documents'
 colors = [(0, 255, 0), (255, 0, 0), (0, 0, 255), (255, 255, 0), 
           (255, 0, 255), (0, 255, 255), (0, 0, 0), (0, 0, 0), 
           (0, 0, 0), (0, 0, 0)]
-class_names = ['section', 'header', 'word', 'bullet', 'page']
 
 cur_class = 0
 num_classes = 5
@@ -158,14 +155,14 @@ def update_image(unmodified=False):
 ### Define functions for creating bounding box labels
 #########################################################
 def change_class(change = 0):
-    global cur_class, num_classes, class_names
+    global cur_class, num_classes
     if change < 0:
         cur_class = 0
     elif change >= num_classes:
         cur_class = num_classes - 1
     else:
         cur_class = change
-    print("Current class:  " + class_names[cur_class])
+    print("Current class:  " + config.class_names[cur_class])
 
 def add_box(start, end):
     """ Add class, top-left, and bottom-right points to list 
@@ -192,7 +189,7 @@ def add_box(start, end):
 cv2.namedWindow("window")
 cv2.setMouseCallback("window", select_box)
 
-for orig_image_path in os.listdir(im_dir):
+for orig_image_path in os.listdir(config.im_dir):
     
     # Skip all files that are not original, boxless images
     if '_boxes' in orig_image_path:
@@ -204,9 +201,9 @@ for orig_image_path in os.listdir(im_dir):
         image_ext = os.path.splitext(orig_image_path)[1]
 
     # Build all necessary file names
-    orig_image_path = os.path.join(im_dir, orig_image_path)
-    im_path = os.path.join(im_dir, new_path + '_boxes' + image_ext)
-    xml_path = os.path.join(im_dir, new_path + '.xml')
+    orig_image_path = os.path.join(config.im_dir, orig_image_path)
+    im_path = os.path.join(config.im_dir, new_path + '_boxes' + image_ext)
+    xml_path = os.path.join(config.im_dir, new_path + '.xml')
 
     # If there are already some labels for this box, load that image
     if os.path.exists(im_path):
