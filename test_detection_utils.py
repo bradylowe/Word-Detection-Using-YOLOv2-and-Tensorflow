@@ -55,7 +55,10 @@ def test_can_write_size():
     assert line_written_properly_to_xml('height', '2345')
     assert line_written_properly_to_xml('depth', '3')
 
-def test_can_add_object_to_xml():
+def test_can_add_objects_to_xml():
     utils.initialize_xml_file('foo.png', (123, 234))
-    utils.add_object_to_xml_file('foo', [[0, 17, 29, 19, 27]])
+    boxes = []
+    boxes.append([0, (17, 29), (420, 69)])
+    boxes.append([0, (27, 19), (230, 45)])
+    utils.add_objects_to_xml_file('foo', boxes)
     assert line_written_properly_to_xml('xmin', '17')

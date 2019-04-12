@@ -3589,19 +3589,6 @@
         <occluded>0</occluded>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>495</xmin>
-            <ymin>899</ymin>
-            <xmax>495</xmax>
-            <ymax>899</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>bullet</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
             <xmin>193</xmin>
             <ymin>897</ymin>
             <xmax>488</xmax>

@@ -1,9 +1,12 @@
 # word-detection-with-conv-net
-Collection of code for detecting and interpreting text from images
+**Collection of code for detecting and interpreting text from images**
 
 This directory houses code, data, and neural network models
 for the automation of parsing input text files such as pdfs, 
-screenshots, or images of text.
+screenshots, or images of text. 
+
+The gif below demonstrates the
+use of the annotation tool image_labeler.py (OpenCV).
 
 ![](using_image_labeler.gif)
 

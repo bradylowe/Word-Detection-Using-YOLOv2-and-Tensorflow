@@ -79,19 +79,6 @@
         <occluded>0</occluded>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>160</xmin>
-            <ymin>64</ymin>
-            <xmax>160</xmax>
-            <ymax>64</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>header</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
             <xmin>155</xmin>
             <ymin>63</ymin>
             <xmax>533</xmax>
@@ -174,19 +161,6 @@
             <ymin>773</ymin>
             <xmax>1619</xmax>
             <ymax>851</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>word</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>195</xmin>
-            <ymin>77</ymin>
-            <xmax>195</xmax>
-            <ymax>77</ymax>
         </bndbox>
     </object>
     <object>
@@ -2498,19 +2472,6 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>1143</xmin>
-            <ymin>932</ymin>
-            <xmax>1143</xmax>
-            <ymax>932</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>word</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>1143</xmin>
             <ymin>934</ymin>
             <xmax>1253</xmax>
             <ymax>967</ymax>
@@ -2800,19 +2761,6 @@
             <ymin>976</ymin>
             <xmax>1612</xmax>
             <ymax>999</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>bullet</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>438</xmin>
-            <ymin>373</ymin>
-            <xmax>438</xmax>
-            <ymax>373</ymax>
         </bndbox>
     </object>
     <object>

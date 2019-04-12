@@ -67,19 +67,6 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>107</xmin>
-            <ymin>140</ymin>
-            <xmax>107</xmax>
-            <ymax>140</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>header</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>107</xmin>
             <ymin>83</ymin>
             <xmax>367</xmax>
             <ymax>136</ymax>
@@ -122,19 +109,6 @@
             <ymin>566</ymin>
             <xmax>469</xmax>
             <ymax>635</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>word</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>357</xmin>
-            <ymin>180</ymin>
-            <xmax>357</xmax>
-            <ymax>180</ymax>
         </bndbox>
     </object>
     <object>
@@ -834,19 +808,6 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>1051</xmin>
-            <ymin>601</ymin>
-            <xmax>1051</xmax>
-            <ymax>601</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>word</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>1051</xmin>
             <ymin>572</ymin>
             <xmax>1184</xmax>
             <ymax>601</ymax>
@@ -1071,19 +1032,6 @@
             <ymin>667</ymin>
             <xmax>800</xmax>
             <ymax>697</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>bullet</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <occluded>0</occluded>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>298</xmin>
-            <ymin>297</ymin>
-            <xmax>298</xmax>
-            <ymax>297</ymax>
         </bndbox>
     </object>
     <object>
