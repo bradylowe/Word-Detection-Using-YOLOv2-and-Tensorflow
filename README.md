@@ -92,9 +92,9 @@ you can perform one of the following tasks:
 
 **Directories**
  - **data**:  Directory storing training and testing data for various models.
-   * Chars74 (not included):  Stores dataset for classification of alpha-numeric chars.
+   * Chars74K (not included, see link above):  Stores dataset for classification of alpha-numeric chars.
       * This dataset is described in the following publication:  T. E. de Campos, B. R. Babu and M. Varma. Character recognition in natural images. In Proceedings of the International Conference on Computer Vision Theory and Applications (VISAPP), Lisbon, Portugal, February 2009. 
-   * MNIST (not included):  Stores the MNIST 0-9 digit dataset
+   * MNIST (not included, see link above):  Stores the MNIST 0-9 digit dataset
    * documents:  Stores images of documents and annotation files containing
                  bounding box information for detection system.
  - **models**:  Stores trained models such as character classifiers and 
