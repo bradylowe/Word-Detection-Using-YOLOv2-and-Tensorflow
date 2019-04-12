@@ -1,6 +1,9 @@
 import os
 
+
+
 xml_dir = 'backup'
+
 for xml_path in os.listdir(xml_dir):
 
     if '.xml' not in xml_path:
