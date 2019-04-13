@@ -1,4 +1,4 @@
-# word-detection-with-conv-net
+# Word-Detection-Using-YOLOv2-and-Tensorflow
 
 **Collection of code for detecting and interpreting text from images**
 
