@@ -28,8 +28,9 @@ you can perform one of the following tasks:
      detection datasets.
    * To use this, you must have a directory with images of
      objects. 
-   * Modify the *setup.py* file to point to the image 
+   * Modify the *config.py* file to point to the image 
      directory or move your images into ./data/documents
+     as well as class names
    * This program outputs two files:
       * imagefile_boxes.png:  Image with boxes drawn on it
       * imagefile.xml:        Annotations stored in this file
